@@ -660,4 +660,4 @@ sniperbot.on("guildMemberAdd", member =>{
 	inBalances(member);
 });
 
-sniperbot.login(process.env.BOT_TOKEN);
+sniperbot.login('MzIwNzE1NzY3OTEyMDcxMTY5.DBThWQ._MJbDpHR9cLnEHZi6BPj2ok7yFw');
