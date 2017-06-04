@@ -1,0 +1,13 @@
+{
+  "name": "QPBot",
+  "description": "Quest Point Tracker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "fs": "6.10.3"
+  },
+}
