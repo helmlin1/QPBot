@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "discord.js": "11.1.0",
-    "fs": "6.10.3"
+    "Node.js": "6.10.3"
   }
 }
