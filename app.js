@@ -227,7 +227,7 @@ sniperbot.on('ready', () => {
 
 	setInterval(function(){
 		if(timestamps['rainbow']){
-			var server = sniperbot.guilds.find("name", "Bot Debugging");
+			var server = sniperbot.guilds.find("name", "TheRandomChannel");
 			var role = server.roles.find("name", "Rainbow");
 			role.setColor(getRandomColor()).then(r=>console.log('${r} had color set')).catch(console.error);
 		}
