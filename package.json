@@ -6,8 +6,10 @@
   "scripts": {
     "start": "node app.js"
   },
+  "engines": {
+    "node": "6.10.3"
+  },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "Node": "6.10.3"
+    "discord.js": "11.1.0"
   }
 }
