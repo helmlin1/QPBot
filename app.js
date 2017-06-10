@@ -458,7 +458,7 @@ sniperbot.on('message', message => {
   		return;
   	}
 
-  	if (command === "give"){
+  	/*if (command === "give"){
   		var giver = message.member;
   		if(args.length!=2){
   			message.channel.sendMessage('Use "/give <@user> <amount>"');
@@ -486,7 +486,7 @@ sniperbot.on('message', message => {
 		message.channel.sendMessage(giver+" has given "+amount+" QP to "+reciever);
 		
 		return;
-  	}
+  	}*/
 
   	if (command==="strike"){
   		if(permission<1){
